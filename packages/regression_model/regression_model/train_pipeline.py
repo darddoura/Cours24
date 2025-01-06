@@ -1,3 +1,10 @@
+import sys
+import pathlib
+
+# Ajouter le chemin du package regression_model au sys.path
+sys.path.append(str(pathlib.Path(__file__).resolve().parent))
+
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
