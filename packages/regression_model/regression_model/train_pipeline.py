@@ -3,7 +3,6 @@ import pathlib
 
 sys.path.append(str(pathlib.Path(__file__).resolve().parent.parent))
 
-
 import numpy as np
 from sklearn.model_selection import train_test_split
 
@@ -15,8 +14,8 @@ from regression_model import __version__ as _version
 import logging
 
 
-#_logger = logging.getLogger(__name__)
-_logger = logging.getLogger("regression_model")
+_logger = logging.getLogger(__name__)
+
 
 def run_training() -> None:
     """Train the model."""
