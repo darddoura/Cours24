@@ -1,3 +1,9 @@
+import sys
+import pathlib
+
+sys.path.append(str(pathlib.Path(__file__).resolve().parent.parent))
+
+
 import numpy as np
 from sklearn.model_selection import train_test_split
 
