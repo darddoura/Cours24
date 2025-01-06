@@ -1,8 +1,6 @@
-import sys
-import pathlib
-
-# Ajouter le chemin parent au PYTHONPATH
-sys.path.append(str(pathlib.Path(__file__).resolve().parent.parent))
+import sys 
+import pathlib   
+sys.path.append(str(pathlib.Path(__file__).resolve().parent.parent))   
 
 import pytest
 
